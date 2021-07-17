@@ -1,0 +1,54 @@
+
+ #timer {
+    margin-top:100px;
+    width: 460px;
+    margin-left: 400px;
+    font-size: 70px;
+    background-color: black;
+    color: limegreen;
+    padding: 25px;
+    border-radius: 50px;
+  }
+  #labels {
+    margin-left: 400px;
+    margin-top: -25px;
+    z-index: 2;
+    color: limegreen;
+    font-size: 12px;
+
+  }
+  #hh {margin-left: 45px;}
+  #mm {margin-left: 80px;}
+  #ss {margin-left: 70px;}
+  #ms {margin-left: 45px;}
+  
+  #controls {
+    margin: left 50px;
+    margin-top: 100px;
+  }
+  
+  button {
+    width: 100px;
+    height: 40px;
+    float:inline-start;
+    margin: 0 -250px 300px 450px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888888;
+  }
+  #go    { background-color: limegreen; }
+  
+  #stop  { background-color: red;  display: none; }
+  
+  #clear { background-color: yellow;
+    display: none;}
+  
+  body, button {
+    font-family: 'Courier';
+  }
+
+
+
+
+
